@@ -1,5 +1,6 @@
 #+Title: Ùzje Mahjong
 #+Date: 2020-09-06
+#+STARTUP: showall
 
 *Ùzje Mahjong* is a variant of the traditional Mahjong game
 that is seen all throughout the planet Earth,
@@ -18,8 +19,62 @@ which we will see later.
 in being able to support six or even eight players,
 though this is not frequently done as getting that many people to play
 is not easy.
-
 Note that as with all mahjong variants, this game is separate and unrelated
 to the tile-matching game that was invented much later on.
+
+This article is written with the expectation
+that readers are at least passively familiar
+with either Japanese or Hong Kong Old Style mahjong,[fn:hkos]
+the latter of which Ùzje mahjong derives from.
+
+[fn:hkos] In Ùzje itself, this is a historical variant and named "Fortress Mahjong".
+
+* Tiles
+There are up to 176 tiles in play for Ùzje mahjong.
+This is far more than the standard form that many other variants use,
+and include one of the largest innovations of the game in Ùzje.
+The table below is a breakdown for the most common configuration of the game:
+
+| Type   | Suit      | # Distinct | Count | Total |
+|--------+-----------+------------+-------+-------|
+| Number | Tongs     |          2 |     4 |     8 |
+|        | Soks      |         16 |     4 |    64 |
+|        | Mans      |         16 |     4 |    64 |
+|--------+-----------+------------+-------+-------|
+| Hybrid | Zero      |          1 |     4 |     4 |
+|--------+-----------+------------+-------+-------|
+| Honour | Winds     |          4 |     4 |    16 |
+|        | Arrows    |          3 |     4 |    12 |
+|--------+-----------+------------+-------+-------|
+| Flower | Seasons   |          4 |     1 |     4 |
+|        | Gentlemen |          4 |     1 |     4 |
+|--------+-----------+------------+-------+-------|
+|        | Total     |         50 |       |   176 |
+#+TBLFM: @>$3=vsum(@I..@-I)::@>$>=vsum(@I..@-I)::$5=$3*$4
+
+We will now go through each of the tiles in detail.
+
+** Suited tiles
+There are three types of suited tiles in the game,
+which are in order the tongs, the soks and the mans.
+They have both a rank and a suit.
+
+** Honour tiles (and zero)
+
+** Flowers
+
+* Gameplay
+
+** Starting off
+
+** Normal turn actions
+
+** Interrupting turn actions
+
+** Winning
+
+* Scoring
+
+* Terminology
 
 #  LocalWords:  Ùzje
